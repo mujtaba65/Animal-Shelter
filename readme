@@ -1,0 +1,19 @@
+Program Author:
+		Mujtaba Mujtaba
+		101167348
+
+Purpose: The purpose of this program is to represent a veterinary(shelter) which has bunch of animals with specific characteristics, and there are bunch of clients who have a specific criteria on what type of animal they want. Now this program takes the clients criteria, and matches it with all the animals available. Now after it matches client-animal, it stores it in a linked list which is represented by matchList(base class) having 2 derived classes which represent the score and clients sorted score.  Identifiable is the base class, animal and clients are 2 derived classes from identifiable.
+
+source files: Identifiable.cc, Animal.cc, Client.cc, Criteria.cc, CriteriaArray.cc, Match.cc, MatchList.cc, MatchListByScore.cc, MatchListByClient.cc, Shelter.cc, Control.cc, View.cc, main.cc
+
+header files: Identifiable.h, Animal.h, Client.h, Criteria.h, CriteriaArray.h, Match.h, MatchList.h, MatchListByScore.h, MatchListByClient.h, Shelter.h, Control.h, View.h
+
+compilation: make
+to remove .o files: make clean
+
+to execute: ./shelter
+
+after executing:
+	4 options to choose from: pick a nuumber 0 to 3
+	if you choose 1 or 2, you can type all or a number..
+
